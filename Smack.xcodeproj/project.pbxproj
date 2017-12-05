@@ -18,6 +18,7 @@
 		A95A54491FCFF47C00E6A3F5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95A54471FCFF47C00E6A3F5 /* SWRevealViewController.m */; };
 		A95A544F1FCFF60F00E6A3F5 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95A544E1FCFF60F00E6A3F5 /* ChatVC.swift */; };
 		A95A54511FCFF62000E6A3F5 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95A54501FCFF62000E6A3F5 /* ChannelVC.swift */; };
+		A96762A11FD650340088D75C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96762A01FD650340088D75C /* RoundedButton.swift */; };
 		A9ECC7811FD6351B00BA4EB3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ECC7801FD6351B00BA4EB3 /* AuthService.swift */; };
 		FCA261C04D4CC06E5A01629B /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF32B4936601742EF0D13F1 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		A95A54481FCFF47C00E6A3F5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
 		A95A544E1FCFF60F00E6A3F5 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		A95A54501FCFF62000E6A3F5 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		A96762A01FD650340088D75C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		A9ECC7801FD6351B00BA4EB3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				A94584881FD23158004253BE /* GradientView.swift */,
+				A96762A01FD650340088D75C /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A95A54511FCFF62000E6A3F5 /* ChannelVC.swift in Sources */,
+				A96762A11FD650340088D75C /* RoundedButton.swift in Sources */,
 				A95A544F1FCFF60F00E6A3F5 /* ChatVC.swift in Sources */,
 				A94584901FD38C3B004253BE /* CreateAccountVC.swift in Sources */,
 				A9ECC7811FD6351B00BA4EB3 /* AuthService.swift in Sources */,
