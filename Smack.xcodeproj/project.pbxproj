@@ -18,6 +18,7 @@
 		A95A54491FCFF47C00E6A3F5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95A54471FCFF47C00E6A3F5 /* SWRevealViewController.m */; };
 		A95A544F1FCFF60F00E6A3F5 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95A544E1FCFF60F00E6A3F5 /* ChatVC.swift */; };
 		A95A54511FCFF62000E6A3F5 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95A54501FCFF62000E6A3F5 /* ChannelVC.swift */; };
+		A9ECC7811FD6351B00BA4EB3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ECC7801FD6351B00BA4EB3 /* AuthService.swift */; };
 		FCA261C04D4CC06E5A01629B /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF32B4936601742EF0D13F1 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		A95A54481FCFF47C00E6A3F5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
 		A95A544E1FCFF60F00E6A3F5 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		A95A54501FCFF62000E6A3F5 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		A9ECC7801FD6351B00BA4EB3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		A95A54321FCFEDB500E6A3F5 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				A9ECC77F1FD634F900BA4EB3 /* Services */,
 				A945848A1FD2429E004253BE /* Utilities */,
 				A95A544D1FCFF5E200E6A3F5 /* Model */,
 				A95A544C1FCFF5DC00E6A3F5 /* View */,
@@ -139,6 +142,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A9ECC77F1FD634F900BA4EB3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A9ECC7801FD6351B00BA4EB3 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		E388407C5EA1B5B3D79115D5 /* Pods */ = {
@@ -277,6 +288,7 @@
 				A95A54511FCFF62000E6A3F5 /* ChannelVC.swift in Sources */,
 				A95A544F1FCFF60F00E6A3F5 /* ChatVC.swift in Sources */,
 				A94584901FD38C3B004253BE /* CreateAccountVC.swift in Sources */,
+				A9ECC7811FD6351B00BA4EB3 /* AuthService.swift in Sources */,
 				A94584891FD23158004253BE /* GradientView.swift in Sources */,
 				A95A54341FCFEDB500E6A3F5 /* AppDelegate.swift in Sources */,
 				A95A54491FCFF47C00E6A3F5 /* SWRevealViewController.m in Sources */,
