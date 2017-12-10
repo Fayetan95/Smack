@@ -22,6 +22,8 @@
 		A96762A11FD650340088D75C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96762A01FD650340088D75C /* RoundedButton.swift */; };
 		A96762A51FD78EF50088D75C /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96762A41FD78EF50088D75C /* AvatarPickerVC.swift */; };
 		A96762A71FD795100088D75C /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96762A61FD795100088D75C /* AvatarCell.swift */; };
+		A9AFE69A1FDD25E800B11CE6 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFE6981FDD25E800B11CE6 /* ProfileVC.swift */; };
+		A9AFE69B1FDD25E800B11CE6 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9AFE6991FDD25E800B11CE6 /* ProfileVC.xib */; };
 		A9BAAACD1FD82C45002BC6DC /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BAAACC1FD82C45002BC6DC /* UserDataService.swift */; };
 		A9ECC7811FD6351B00BA4EB3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ECC7801FD6351B00BA4EB3 /* AuthService.swift */; };
 		FCA261C04D4CC06E5A01629B /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF32B4936601742EF0D13F1 /* Pods_Smack.framework */; };
@@ -50,6 +52,8 @@
 		A96762A01FD650340088D75C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		A96762A41FD78EF50088D75C /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		A96762A61FD795100088D75C /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		A9AFE6981FDD25E800B11CE6 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A9AFE6991FDD25E800B11CE6 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		A9BAAACC1FD82C45002BC6DC /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		A9ECC7801FD6351B00BA4EB3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +108,7 @@
 		A95A54321FCFEDB500E6A3F5 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				A9AFE69C1FDD261400B11CE6 /* XIBs */,
 				A9ECC77F1FD634F900BA4EB3 /* Services */,
 				A945848A1FD2429E004253BE /* Utilities */,
 				A95A544D1FCFF5E200E6A3F5 /* Model */,
@@ -136,6 +141,7 @@
 				A945848D1FD389ED004253BE /* LoginVC.swift */,
 				A945848F1FD38C3B004253BE /* CreateAccountVC.swift */,
 				A96762A41FD78EF50088D75C /* AvatarPickerVC.swift */,
+				A9AFE6981FDD25E800B11CE6 /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -156,6 +162,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A9AFE69C1FDD261400B11CE6 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				A9AFE6991FDD25E800B11CE6 /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		A9ECC77F1FD634F900BA4EB3 /* Services */ = {
@@ -239,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9AFE69B1FDD25E800B11CE6 /* ProfileVC.xib in Resources */,
 				A95A543E1FCFEDB500E6A3F5 /* LaunchScreen.storyboard in Resources */,
 				A95A543B1FCFEDB500E6A3F5 /* Assets.xcassets in Resources */,
 				A95A54391FCFEDB500E6A3F5 /* Main.storyboard in Resources */,
@@ -300,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9AFE69A1FDD25E800B11CE6 /* ProfileVC.swift in Sources */,
 				A95A54511FCFF62000E6A3F5 /* ChannelVC.swift in Sources */,
 				A9BAAACD1FD82C45002BC6DC /* UserDataService.swift in Sources */,
 				A96762A51FD78EF50088D75C /* AvatarPickerVC.swift in Sources */,
