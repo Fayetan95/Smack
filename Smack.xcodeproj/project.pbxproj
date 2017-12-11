@@ -26,6 +26,7 @@
 		A9AFE69B1FDD25E800B11CE6 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9AFE6991FDD25E800B11CE6 /* ProfileVC.xib */; };
 		A9AFE69E1FDD8FB000B11CE6 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFE69D1FDD8FB000B11CE6 /* MessageService.swift */; };
 		A9AFE6A21FDD905F00B11CE6 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFE6A11FDD905F00B11CE6 /* Channel.swift */; };
+		A9AFE6A41FDE538800B11CE6 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFE6A31FDE538800B11CE6 /* ChannelCell.swift */; };
 		A9BAAACD1FD82C45002BC6DC /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BAAACC1FD82C45002BC6DC /* UserDataService.swift */; };
 		A9ECC7811FD6351B00BA4EB3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ECC7801FD6351B00BA4EB3 /* AuthService.swift */; };
 		FCA261C04D4CC06E5A01629B /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF32B4936601742EF0D13F1 /* Pods_Smack.framework */; };
@@ -58,6 +59,7 @@
 		A9AFE6991FDD25E800B11CE6 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		A9AFE69D1FDD8FB000B11CE6 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		A9AFE6A11FDD905F00B11CE6 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		A9AFE6A31FDE538800B11CE6 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		A9BAAACC1FD82C45002BC6DC /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		A9ECC7801FD6351B00BA4EB3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +159,7 @@
 				A96762A01FD650340088D75C /* RoundedButton.swift */,
 				A96762A61FD795100088D75C /* AvatarCell.swift */,
 				A961CBBE1FD8FF0400B05599 /* CircleImage.swift */,
+				A9AFE6A31FDE538800B11CE6 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9AFE69A1FDD25E800B11CE6 /* ProfileVC.swift in Sources */,
+				A9AFE6A41FDE538800B11CE6 /* ChannelCell.swift in Sources */,
 				A95A54511FCFF62000E6A3F5 /* ChannelVC.swift in Sources */,
 				A9BAAACD1FD82C45002BC6DC /* UserDataService.swift in Sources */,
 				A96762A51FD78EF50088D75C /* AvatarPickerVC.swift in Sources */,
