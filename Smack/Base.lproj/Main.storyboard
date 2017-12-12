@@ -74,23 +74,45 @@
                                     <constraint firstItem="g1D-xc-ivO" firstAttribute="leading" secondItem="CXV-lh-4xq" secondAttribute="leading" constant="12" id="dKO-Nw-5GD"/>
                                 </constraints>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Message: " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ICI-ov-0is">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XrU-NT-U12"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KW7-vY-1Ix">
+                                <rect key="frame" x="337" y="632" width="30" height="30"/>
+                                <state key="normal" image="send"/>
+                                <connections>
+                                    <action selector="sendMsgPressed:" destination="fLx-ei-g5z" eventType="touchUpInside" id="Nnr-HC-N6w"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="baa-td-6sS" firstAttribute="trailing" secondItem="KW7-vY-1Ix" secondAttribute="trailing" constant="8" id="Qs7-NS-Goj"/>
                             <constraint firstItem="CXV-lh-4xq" firstAttribute="top" secondItem="PnG-2V-C7A" secondAttribute="top" id="VaH-nz-h6g"/>
+                            <constraint firstItem="ICI-ov-0is" firstAttribute="trailing" secondItem="baa-td-6sS" secondAttribute="trailing" id="l4h-Df-ACs"/>
                             <constraint firstItem="CXV-lh-4xq" firstAttribute="leading" secondItem="baa-td-6sS" secondAttribute="leading" id="mjh-Qw-c70"/>
+                            <constraint firstItem="ICI-ov-0is" firstAttribute="bottom" secondItem="baa-td-6sS" secondAttribute="bottom" id="uRk-e8-LP6"/>
+                            <constraint firstItem="KW7-vY-1Ix" firstAttribute="centerY" secondItem="ICI-ov-0is" secondAttribute="centerY" id="ufD-gl-Klg"/>
                             <constraint firstItem="CXV-lh-4xq" firstAttribute="trailing" secondItem="baa-td-6sS" secondAttribute="trailing" id="wwq-3X-dhB"/>
+                            <constraint firstItem="ICI-ov-0is" firstAttribute="leading" secondItem="baa-td-6sS" secondAttribute="leading" id="ydz-Yz-c2g"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="baa-td-6sS"/>
                     </view>
                     <connections>
                         <outlet property="channelNamelbl" destination="Z2T-Zx-WaH" id="EhM-iN-Rua"/>
                         <outlet property="menuBtn" destination="g1D-xc-ivO" id="15c-LQ-jan"/>
+                        <outlet property="messageTxtBox" destination="ICI-ov-0is" id="I1L-Rc-Dug"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Tn-jW-cZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="967.20000000000005" y="499.70014992503752"/>
+            <point key="canvasLocation" x="965.60000000000002" y="493.40329835082463"/>
         </scene>
         <!--ChannelVC-->
         <scene sceneID="dSd-Pm-CwR">
@@ -603,6 +625,7 @@
         <image name="closeButton" width="28" height="28"/>
         <image name="menuProfileIcon" width="99" height="99"/>
         <image name="profileDefault" width="192" height="192"/>
+        <image name="send" width="30" height="30"/>
         <image name="smackBack" width="28" height="28"/>
         <image name="smackBurger" width="40" height="40"/>
         <image name="smackLogo" width="48" height="40"/>
