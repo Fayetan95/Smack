@@ -13,9 +13,11 @@ class ChatVC: UIViewController {
     // Outlets
     
     @IBOutlet weak var menuBtn: UIButton!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
 
         menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
 

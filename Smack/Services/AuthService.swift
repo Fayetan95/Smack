@@ -1,4 +1,4 @@
-//
+    //
 //  AuthService.swift
 //  Smack
 //
