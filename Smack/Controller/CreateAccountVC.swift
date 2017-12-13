@@ -25,7 +25,6 @@ class CreateAccountVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-
      }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -105,5 +104,4 @@ class CreateAccountVC: UIViewController {
     @objc func handleTap() {
         view.endEditing(true)
     }
-
 }

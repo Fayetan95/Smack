@@ -79,7 +79,6 @@ class ChatVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             } else {
                 self.typingUserLbl.text = ""    // all stop typing
             }
-        
         }
         
         if AuthService.instance.isLoggedIn {

@@ -21,7 +21,6 @@ class AvatarCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         setupView()
-        
     }
     
     func configureCell(index: Int, type: AvatarType) {
@@ -32,7 +31,6 @@ class AvatarCell: UICollectionViewCell {
             avatarImg.image = UIImage(named: "light\(index)")
             self.layer.backgroundColor = UIColor.gray.cgColor
         }
-        
     }
     
     func setupView() {

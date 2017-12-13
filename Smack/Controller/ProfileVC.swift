@@ -19,7 +19,6 @@ class ProfileVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-
     }
 
     @IBAction func closeModalPressed(_ sender: Any) {
@@ -45,6 +44,4 @@ class ProfileVC: UIViewController {
     @objc func closeTap(_ recognizer: UITapGestureRecognizer) {
         dismiss(animated: true, completion: nil)
     }
-    
-    
 }

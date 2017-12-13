@@ -104,5 +104,4 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             performSegue(withIdentifier: TO_LOGIN, sender: nil)
         }
     }
-    
 }

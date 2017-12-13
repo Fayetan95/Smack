@@ -1,4 +1,4 @@
-    //
+//
 //  AuthService.swift
 //  Smack
 //
@@ -95,7 +95,6 @@ class AuthService {
                 debugPrint(response.result.error as Any)
             }
         }
-
     }
     
     func createUser(name: String, email: String, avatarName: String, avatarColor: String, completion: @escaping CompletionHandler) {
@@ -146,5 +145,4 @@ class AuthService {
         
         UserDataService.instanace.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
     }
-    
 }

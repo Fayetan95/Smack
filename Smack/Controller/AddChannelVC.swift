@@ -39,11 +39,9 @@ class AddChannelVC: UIViewController {
         bgView.addGestureRecognizer(closeTouch)
         
         nameTxt.attributedPlaceholder = NSAttributedString(string: "name", attributes: [NSAttributedStringKey.foregroundColor : smackPurplePlaceholder ])
-        
     }
     
     @objc func closeTap(_ recognizer: UITapGestureRecognizer) {
         dismiss(animated: true, completion: nil)
     }
-    
 }

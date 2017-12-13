@@ -32,5 +32,4 @@ class ChannelCell: UITableViewCell {
         let title = channel.channelTitle ?? ""
         channelName.text = "#\(title)"
     }
-
 }

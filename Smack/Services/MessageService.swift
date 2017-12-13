@@ -45,8 +45,6 @@ class MessageService {
                     NotificationCenter.default.post(name: NOTIF_CHANNELS_LOADED, object: nil)
                     completion(true)
                 }
-                
-                
                 print("got here", self.channels)
                 
             } else {
@@ -91,7 +89,6 @@ class MessageService {
     func clearChannels() {
         channels.removeAll()
     }
-
 }
 
 
